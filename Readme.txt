@@ -1,19 +1,15 @@
 Instructions:
 
 1. Make sure maven is installed and available at the command line. Type 'mvn --version' to confirm the installation
-2. Compile the project by typing 'mvn package'
-3. To run the command line application type 'mvn exec:java -Dexec.mainClass=com.virmedica.main.Main'
-    a. The application will display the VirMedica prompt here are the available commands
-        i.   help <optional command name> which give some usage information about the command
-        ii.  exit which closes the application
-        iii. solution1 <last number> which finds the prime numbers between 1 and N in a single threaded sieve
-        iv.  solution2 <last number> <thread count> which finds the prime numbers between 1 and N in a multi-threaded sieve
-        v. solution2a <last number> <thread count> which finds the prime numbers between 1 and N in a multi-threaded sieve uses some function code
-4. To start and deploy the web application to Jetty type 'mvn jetty:run-war'
-    a. Jetty will start and the war is deployed
-    b. Open the browser to http://localhost:8080. A webpage with a text field to type commands and a description of the commands shown
-    c. Type in a command and the results are shown to the user
-
+2. Compile and deploy the project by typing 'mvn spring-boot:run'
+3. Open a browser to http://localhost:8080
+4. There are three links shown that resolve to
+    a. http://localhost:8080/solution1
+    b. http://localhost:8080/solution2
+    c. http://localhost:8080/solution2a
+5. Each page has 1 or 2 input fields.
+    a. The first being to what number primes should be calculated
+    b. The second (if present) the number of thread that should be used in the calculation
 
 Original Email:
 
