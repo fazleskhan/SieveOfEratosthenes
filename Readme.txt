@@ -8,8 +8,8 @@ Instructions:
     b. http://localhost:8080/solution2
     c. http://localhost:8080/solution2a
 5. Each page has 1 or 2 input fields.
-    a. The first being to what number primes should be calculated
-    b. The second (if present) the number of thread that should be used in the calculation
+    a. The first is to what number primes should be calculated
+    b. The second (if present) the number of threads that should be used in the calculation
 
 Original Email:
 
