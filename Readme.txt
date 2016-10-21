@@ -1,15 +1,20 @@
 Instructions:
 
-1. Make sure maven is installed and available at the command line. Type 'mvn --version' to confirm the installation
-2. Compile and deploy the project by typing 'mvn spring-boot:run'
-3. Open a browser to http://localhost:8080
-4. There are three links shown that resolve to
+1. Make sure git is installed and available at the command line. Type 'git --version' to confirm the installation
+2. Clone the repo at https://github.com/fazleskhan/VirMedicaSample, or extact the provided zip
+3. Make sure maven is installed and available at the command line. Type 'mvn --version' to confirm the installation
+4. Compile and deploy the project by typing 'mvn spring-boot:run'
+5. Open a browser to http://localhost:8080
+6. There are two links shown that resolve to
     a. http://localhost:8080/solution1
     b. http://localhost:8080/solution2
-    c. http://localhost:8080/solution2a
 5. Each page has 1 or 2 input fields.
     a. The first is to what number primes should be calculated
     b. The second (if present) the number of threads that should be used in the calculation
+
+
+Note:
+    Though solution 2 'works' and passes the actual runtime is much worse than solution 1
 
 Original Email:
 
