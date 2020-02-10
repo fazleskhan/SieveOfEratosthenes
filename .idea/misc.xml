@@ -10,4 +10,8 @@
       </list>
     </option>
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/README.MD" />
+    <file url="file://$PROJECT_DIR$/README.md" />
+  </component>
 </project>
